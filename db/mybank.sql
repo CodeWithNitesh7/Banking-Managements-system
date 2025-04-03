@@ -3,7 +3,6 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 05, 2018 at 06:24 AM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -58,8 +57,8 @@ CREATE TABLE `feedback` (
 --
 
 INSERT INTO `feedback` (`feedbackId`, `message`, `userId`, `date`) VALUES
-(1, 'This is testing message to admin or manager by fk', 1, '2017-12-15 04:30:48'),
-(3, 'This is testing message to admin or manager by fk', 2, '2017-12-15 04:30:48'),
+(1, 'This is testing message to admin or manager by fk', 1, '2026-12-15 04:30:48'),
+(3, 'This is testing message to admin or manager by fk', 2, '2026-12-15 04:30:48'),
 (4, 'this is help card for admin', 1, '2017-12-17 06:45:20');
 
 -- --------------------------------------------------------
@@ -81,8 +80,8 @@ CREATE TABLE `login` (
 --
 
 INSERT INTO `login` (`id`, `email`, `password`, `type`, `date`) VALUES
-(1, 'cashier@cashier.com', 'cashier', 'cashier', '2017-12-15 04:36:27'),
-(2, 'manager@manager.com', 'manager', 'manager', '2017-12-15 04:36:27'),
+(1, 'cashier@cashier.com', 'cashier', 'cashier', '2045-12-15 04:36:27'),
+(2, 'manager@manager.com', 'manager', 'manager', '2026-12-15 04:36:27'),
 (3, 'sadfas@gmail.com', 'sdfas', 'type', '2017-12-16 07:13:12'),
 (4, 'fkgeo@gmail.com', 'asdfsa', 'type', '2017-12-16 07:13:18'),
 (6, 'cashier2@cashier.com', 'cashier2', 'cashier', '2017-12-16 07:14:47');
@@ -128,9 +127,9 @@ CREATE TABLE `otheraccounts` (
 --
 
 INSERT INTO `otheraccounts` (`id`, `accountNo`, `bankName`, `holderName`, `balance`, `date`) VALUES
-(1, '12001122', 'UBL', 'Yogesh gupta', '40800', '2017-12-14 11:55:07'),
+(1, '12001122', 'UBL', 'Yogesh gupta', '40800', '2026-12-14 11:55:07'),
 (2, '12001123', 'HBL', 'nitesh', '71000', '2017-12-14 11:55:07'),
-(3, '12001124', 'HBL', 'abc ', '71000', '2017-12-14 11:55:07');
+(3, '12001124', 'HBL', 'abc ', '71000', '2026-12-14 11:55:07');
 
 -- --------------------------------------------------------
 
